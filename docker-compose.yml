@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: plotly-service
+    env_file: .env
+    ports:
+      - "80:8050"
+    restart: always

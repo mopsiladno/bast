@@ -1,0 +1,9 @@
+dash==2.14.2
+Flask==3.0.0
+numpy==1.25.0
+pandas==2.1.4
+plotly==5.17.0
+prophet==1.1.5
+ipywidgets>=7.0.0
+gunicorn
+dash_bootstrap_components
